@@ -1,0 +1,26 @@
+test_bad_int (__main__.TestConversion) ... ok
+test_bad_int2 (__main__.TestConversion) ... ok
+test_bad_int3 (__main__.TestConversion) ... FAIL
+test_bad_int4 (__main__.TestConversion) ... FAIL
+test_bad_int5 (__main__.TestConversion) ... ok
+
+======================================================================
+FAIL: test_bad_int3 (__main__.TestConversion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test3.py", line 23, in test_bad_int3
+    self.fail('ValueError not raised')
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_bad_int4 (__main__.TestConversion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test3.py", line 29, in test_bad_int4
+    parse_int, '1')
+AssertionError: ValueError not raised by parse_int
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=2)

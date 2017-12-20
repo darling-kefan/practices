@@ -1,0 +1,17 @@
+1. with语句和上下文管理器
+2. for, while, try语句的else子句用法
+
+for
+
+1. for循环执行完毕后(不是因为break退出)执行else语句块
+2. while表达式为False后(不是因为break退出)执行else语句块
+3. try语句块没有异常发生时，执行else语句块
+
+在所有情况下，如果异常或return、break或continue语句导致控制权跳到了复合语句的主块之外，else子句会被跳过。
+
+在Python中，try/except的用途除了捕获异常之外，还用于流程控制。
+
+EAPP: 取得原谅比获得许可更容易
+
+LBYL: 三思而后行
+

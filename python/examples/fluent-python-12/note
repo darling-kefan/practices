@@ -1,0 +1,3 @@
+1. 直接子类化内置类型(如dict,list或str)容易出错，因为内置类型的方法通常会忽略用户覆盖的方法。不要子类化内置类型，用户自己定义的类应该继承collections模块中的类，例如UserDict、UserList和UserString，这些类做了特殊设计，因此易于扩展。
+
+2.

@@ -23,7 +23,7 @@ func main() {
 		pi      float32
 	}{false, 99, 90.2}
 
-	e3 = e5
+    e3 = e5
 
 	fmt.Println(e1)
 	fmt.Println(e2)
